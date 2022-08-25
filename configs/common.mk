@@ -98,7 +98,7 @@ include vendor/404/configs/utils.mk
 $(call inherit-product-if-exists, device/qcom/common/common.mk)
 
 # Include definitions for Snapdragon Clang
-#$(call inherit-product, vendor/qcom/sdclang/config/SnapdragonClang.mk)
+$(call inherit-product, vendor/qcom/sdclang/config/SnapdragonClang.mk)
 
 # Sensitive Phone Numbers list
 PRODUCT_COPY_FILES += \
